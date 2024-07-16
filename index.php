@@ -1,4 +1,4 @@
-.local {
+.flex {
   display: flex;
   justify-content: space-around;
   align-items: center;
