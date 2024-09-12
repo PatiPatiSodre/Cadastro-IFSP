@@ -1,11 +1,11 @@
 <?php
-include('../includes/conexao.php');
+include('../include/conexao.php');
 $id = $_POST['id'];
 $nome = $_POST['nome'];
 $estado = $_POST['estado'];
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -27,7 +27,7 @@ $estado = $_POST['estado'];
     else
         echo "Erro ao atualizar dados!\n" . mysqli_error($con);
     ?>
-    <button class="botao"><a href="./ListarCidade.php">Voltar</a></button>
+    <button class="botao"><a href="./Listar-Cidade.php">Voltar</a></button>
 </body>
 
 </html>
