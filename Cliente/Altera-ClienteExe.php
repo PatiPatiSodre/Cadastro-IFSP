@@ -1,5 +1,5 @@
 <?php
-include('../includes/conexao.php');
+include('../include/conexao.php');
 $id = $_POST['id'];
 $nome = $_POST['nome'];
 $senha = $_POST['senha'];
@@ -7,7 +7,7 @@ $email = $_POST['email'];
 $ativo = $_POST['ativo'] == "sim" ? true : false;
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -31,7 +31,7 @@ $ativo = $_POST['ativo'] == "sim" ? true : false;
     else
         echo "Erro ao atualizar dados!\n" . mysqli_error($con);
     ?>
-    <button class="botao"><a href="./ListarCliente.php">Voltar</a></button>
+    <button class="botao"><a href="./Listar-Cliente.php">Voltar</a></button>
 </body>
 
 </html>
