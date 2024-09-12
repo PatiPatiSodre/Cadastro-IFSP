@@ -12,7 +12,7 @@
       <button class="botao">
         <a href="./Cadastro-Cidade.html">Cadastrar</a>
       </button>
-      <button class="botao"><a href="./Listar-Cidades.php">Visualizar</a></button>
+      <button class="botao"><a href="./Listar-Cidade.php">Visualizar</a></button>
     </div>
   </body>
 </html>
