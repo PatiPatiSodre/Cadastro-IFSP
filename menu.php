@@ -13,9 +13,9 @@
         <li><a href="logout.php">Logout</a></li>
 
         <?php
-            echo "<li><a> Olá ". $_SESSION['login']['nome'] . "</a><li>"
+            echo "<li><a> Olá ". $_SESSION['login']['nome'] . "</a></li>"
             endif;
         ?>
-        
+
     </ul>
 </div>
