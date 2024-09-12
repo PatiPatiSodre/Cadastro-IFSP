@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./Style.css">
     <title>Document</title>
 </head>
 
@@ -13,7 +13,7 @@
     <div class="principal flex inverter_column">
         <button class="botao"><a href="../index.html">Voltar</a></button>
         <?php
-        include('../includes/conexao.php');
+        include('../include/conexao.php');
         $sql = "SELECT * FROM cidade";
         // Executa a consulta
         $result = mysqli_query($con, $sql);
