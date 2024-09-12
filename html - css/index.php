@@ -8,16 +8,16 @@
     <title>DOcumento</title>
   </head>
   <body>
-    <php>
+    <?php
       include('inicia_sessao.php');
       if(empty($_SESSION['login'])){
           header("Location: login.php");
       }
 
       include('menu.php');
-      //session_destroy();
+      //session_destroy()
 
-    </php>
+    ?>
 
     <div class="principal flex">
       <button class="botao">
