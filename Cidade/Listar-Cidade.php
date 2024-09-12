@@ -33,8 +33,8 @@
                 echo "<td>" . $row['id'] . "</td>";
                 echo "<td>" . $row['nome'] . "</td>";
                 echo "<td>" . $row['estado'] . "</td>";
-                echo "<td><a href='alteraCidade.php?id=" . $row['id'] . "'>Alterar</a></td>";
-                echo "<td><a href='deletaCidade.php?id=" . $row['id'] . "'>Deletar</a></td>";
+                echo "<td><a href='Altera-Cidade.php?id=" . $row['id'] . "'>Alterar</a></td>";
+                echo "<td><a href='Deleta-Cidade.php?id=" . $row['id'] . "'>Deletar</a></td>";
                 echo "</tr>";
             }
             ?>
