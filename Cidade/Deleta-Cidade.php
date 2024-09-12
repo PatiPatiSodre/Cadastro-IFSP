@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -11,7 +11,7 @@
 <body>
     <h1>Deletar cidade</h1>
     <?php
-    include('../includes/conexao.php');
+    include('../include/conexao.php');
     $id = $_GET['id'];
     $sql = "DELETE FROM cidade WHERE id = $id";
     $result = mysqli_query($con, $sql);
@@ -22,7 +22,7 @@
         echo "<h2>" . mysqli_error($con) . "</h2>";
     }
     ?>
-    <button class="botao"><a href="./ListarCidade.php">Voltar</a></button>
+    <button class="botao"><a href="./Listar-Cidade.php">Voltar</a></button>
 </body>
 
 </html>
