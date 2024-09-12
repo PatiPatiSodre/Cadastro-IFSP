@@ -1,7 +1,7 @@
 <?php
 include('../include/conexao.php');
-$id = $_POST['id'];
-$nome = $_POST['nome'];
+$id    = $_POST['id'];
+$nome  = $_POST['nome'];
 $senha = $_POST['senha'];
 $email = $_POST['email'];
 $ativo = $_POST['ativo'] == "sim" ? true : false;
