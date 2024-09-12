@@ -16,7 +16,7 @@ $row = mysqli_fetch_array($result);
   </head>
   <body>
     <div class="principal flex inverter_column">
-      <form action="./AlteraClienteExe.php" method="post">
+      <form action="./Altera-ClienteExe.php" method="post">
         <fieldset>
           <legend>Cadastro de Cidades</legend>
           <div>
