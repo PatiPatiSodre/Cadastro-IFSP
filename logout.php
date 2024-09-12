@@ -1,4 +1,4 @@
-<php>
+<?php
     include('inicia_sessao.php');
     // Limpa variáveis de sessão
     session_unset();
@@ -6,4 +6,4 @@
     session_destroy();
     // Volta para página inicial
     header('Location: index.php');
-<?php
+?>
