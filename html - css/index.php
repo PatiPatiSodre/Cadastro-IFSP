@@ -5,9 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
-    <title>Início</title>
+    <title>DOcumento</title>
   </head>
   <body>
+    <php>
+      include('inicia_sessao.php');
+      if(empty($_SESSION['login'])){
+          header("Location: login.php");
+      }
+
+      include('menu.php');
+      //session_destroy();
+
+    </php>
+
     <div class="principal flex">
       <button class="botao">
         <a href="./Cadastro-Cidade.html">Cadastrar</a>
