@@ -18,7 +18,7 @@ $row = mysqli_fetch_array($result);
 
 <body>
     <div class="principal flex inverter_column">
-        <form action="AlteraCidadeExe.php" method="post">
+        <form action="Altera-CidadeExe.php" method="post">
             <fieldset>
                 <legend>Cadastro de Cidades</legend>
                 <div>
@@ -39,7 +39,7 @@ $row = mysqli_fetch_array($result);
                 </div>
             </fieldset>
         </form>
-        <button class="botao"><a href="./ListarCidade.php">Voltar</a></button>
+        <button class="botao"><a href="./Listar-Cidade.php">Voltar</a></button>
     </div>
 </body>
 
